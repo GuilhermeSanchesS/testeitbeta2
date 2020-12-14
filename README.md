@@ -1,9 +1,11 @@
 <h1 align="center">Teste Prático - itBeta² </h1>
 <h4 align="center">Login com Angular 10</h4>
-
-
 <p align="center">Construção de um CRUD de usuários.</p>
-## ✅ Funcionalidades:
+
+### Clone este repositório
+$ git clone <https://github.com/GuilhermeSanchesS/testeitbeta2>
+
+### ✅ Funcionalidades:
 * [Login](#login)
 * [Primeiro acesso](#primeiro-acesso)
 * [Reset de senha](#reset-de-senha)
@@ -22,6 +24,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Spring Data JPA](https://start.spring.io/)
 - [banco de dados MySQL](https://www.mysql.com/products/workbench/)
 
-## ✍Requisitos importantes:
+### ✍Requisitos importantes:
 - [ ] Envio de e-mail
 - [x] Exibição de mensagens de alerta
