@@ -1,0 +1,32 @@
+<div class = "container">
+  <h2> Funcinários Cadastrados</h2>
+  <table class = "table table-dark table-hover">
+      <thead>
+          <tr>
+              <th>ID</th>
+              <th>NOME</th>
+              <th>SOBRENOME</th>
+              <th>EMAIL</th>
+              <th>SENHA</th>
+              <th>CARGO</th>
+              <th> AÇÃO </th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor = "let employee of employees" >
+              <td> {{ employee.id }} </td>
+              <td> {{ employee.firstName }} </td>
+              <td> {{ employee.lastName }} </td>
+              <td> {{ employee.emailId }} </td>
+              <td> {{ employee.password }} </td>
+              <td> {{ employee.office }} </td>
+              <td>
+                  <button (click) = "updateEmployee(employee.id)" class = "btn btn-info"> Editar</button>
+                  <button (click) = "deleteEmployee(employee.id)" class = "btn btn-danger" style="margin-left: 10px"> Deleta</button>
+                  <button (click) = "employeeDetails(employee.id)" class = "btn btn-info" style="margin-left: 10px"> View</button>
+              </td>
+          </tr>
+      </tbody>
+  </table>
+</div>
+
