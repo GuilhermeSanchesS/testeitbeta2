@@ -4,8 +4,18 @@
 <h1 align="center">
   <img alt="Login" title="#Login" src="https://raw.githubusercontent.com/GuilhermeSanchesS/testeitbeta2/main/file/login_itbeta.png" />
 </h1>
+
+### ✅ Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) e o [Eclipse](https://www.eclipse.org/downloads/packages/release/oxygen/3a/eclipse-ide-java-developers)
+
+
 ### Clone este repositório
+```bash
 $ git clone <https://github.com/GuilhermeSanchesS/testeitbeta2>
+```
 
 ### ✅ Funcionalidades:
 * [Login](#login)
@@ -29,3 +39,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### ✍Requisitos importantes:
 - [ ] Envio de e-mail
 - [x] Exibição de mensagens de alerta
+
+### 🔗 Links
+- https://www.youtube.com/playlist?list=PLGRDMO4rOGcNzi3CpBWsCdQSzbjdWWy-f
+- https://www.youtube.com/watch?v=7DzdebaSgxg
