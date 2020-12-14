@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  position: fixed;
+  background: linear-gradient(
+    75deg,
+    rgba(0, 0, 0, 1) 18%,
+    rgba(0, 31, 163, 1) 40%,
+    rgba(0, 46, 170, 1) 84%,
+    rgba(0, 224, 255, 1) 100%
+  );
+  padding: 20px;
+  width: 100%;
+  height: 70px;
+}
+.left_area h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: -20px;
+}
+.left_area img {
+  position: absolute;
+  margin-left: 5px;
+  width: 86px;
+  height: 32px;
+}
+.rigth_area {
+  margin-top: -50px;
+}
+.logout_btn {
+  padding: 10px;
+  background: #000000;
+  text-decoration: none;
+  float: right;
+  margin-right: 40px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.logout_btn:hover {
+  color: #000000;
+  background: #ffffff;
+}
+
+.sidebar {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 4%,
+    rgba(0, 36, 130, 1) 31%,
+    rgba(0, 134, 255, 1) 100%
+  );
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  transition: 0.5s;
+  transition-property: left;
+}
+
+.sidebar .profile_image {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  margin-bottom: 10px;
+}
+
+.sidebar h4 {
+  color: #cccccc;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.sidebar a {
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+}
+.sidebar a:hover {
+  background: rgba(0, 134, 255, 0.2);
+}
+
+.sidebar i {
+  padding-right: 10px;
+}
+
+label #sidebar_btn {
+  z-index: 1;
+  color: #ffffff;
+  position: fixed;
+  cursor: pointer;
+  left: 300px;
+  font-size: 20px;
+  margin: 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+label #sidebar_btn:hover {
+  color: rgba(0, 134, 255, 1);
+}
+#check:checked ~ .sidebar {
+  left: -190px;
+}
+#check:checked ~ .sidebar a span {
+  display: none;
+}
+
+#check:checked ~ .sidebar a {
+  font-size: 20px;
+  margin-left: 170px;
+  width: 80px;
+}
+
+#check:checked ~ .content {
+  margin-left: 60px;
+}
+
+#check {
+  display: none;
+}

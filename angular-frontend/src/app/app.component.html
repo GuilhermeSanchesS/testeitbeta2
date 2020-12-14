@@ -1,0 +1,35 @@
+<input type="checkbox" id="check">
+<!--Header area start-->
+<header>
+  <label for="check">
+    <i class="fas fa-bars" id="sidebar_btn"></i>
+  </label>
+  <div class="left_area">
+    <h3>Teste <img src="../assets/itbeta.png" alt="itbeta2"></h3>
+  </div>
+  <div class="rigth_area">
+    <a routerLink="login" routerLinkActive="active" class="logout_btn"><i class="fas fa-sign-out-alt"></i>  Sair</a>
+  </div>
+</header>
+<!--Header area end-->
+<!--sidebar start-->
+  <div class="sidebar">
+    <div style="text-align: center; justify-items: center;">
+      <img class="profile_image" src="../assets/fish.png" alt="fish">
+      <h4>Admin</h4>
+    </div>
+    <a routerLink="home" routerLinkActive="active" class="nav-link"><i class="fas fa-desktop"></i><span> Home</span></a>
+    <a routerLink="employees" routerLinkActive="active" class="nav-link"><i class="fas fa-table"></i><span> Cadastrados</span></a>
+    <a a routerLink="create-employee" routerLinkActive="active" class="nav-link" ><i class="fas fa-th"></i><span> Cadastrar</span></a>
+    <a routerLink="employees" routerLinkActive="active" class="nav-link"><i class="fas fa-info-circle"></i><span>Informação</span></a>
+    <a routerLink="employees" routerLinkActive="active" class="nav-link"><i class="fas fa-sliders-h"></i><span>Configuração</span></a>
+  </div>
+  <!--sidebar  end-->
+<div class = "content">
+  <div class = "container">
+    <br><br><br><br>
+    <router-outlet></router-outlet>
+  </div>
+
+</div>
+
