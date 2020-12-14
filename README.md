@@ -1,7 +1,9 @@
 <h1 align="center">Teste Prático - itBeta² </h1>
 <h4 align="center">Login com Angular 10</h4>
 <p align="center">Construção de um CRUD de usuários.</p>
-
+<h1 align="center">
+  <img alt="Login" title="#Login" src="file/login_itbeta" />
+</h1>
 ### Clone este repositório
 $ git clone <https://github.com/GuilhermeSanchesS/testeitbeta2>
 
